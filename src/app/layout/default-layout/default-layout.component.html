@@ -1,0 +1,13 @@
+<div class="ma-container">
+    <ma-menu #menu [isOpen]="menuIsOpen">
+        <ma-menu-content [title]="menuTitle"></ma-menu-content>
+    </ma-menu>
+    <div class="content">
+        <div class="content-body" [ngClass]="{'content-body-menu' : menuIsOpen}">
+            <router-outlet></router-outlet>
+            <div class="menu-toggler" (click)="toggle()">
+                <i class="pi pi-bars"></i>
+            </div>
+        </div>
+    </div>
+</div>

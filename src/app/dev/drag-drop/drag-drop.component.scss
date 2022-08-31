@@ -1,0 +1,30 @@
+.dashboard-container {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  width: 90%;
+  height: 82%;
+  box-shadow: 0px 0px 1px 2px #A7A7A7, 3px 3px 3px 2px #494943;
+}
+
+.shadow-box {
+  box-shadow: 0px 0px 1px 0 #277ea3, 2px 3px 3px 2px #1d2e49;
+}
+
+.flex-container {
+  position: absolute;
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 60%;
+  height: 30%;
+  cursor: pointer;
+}
+
+.drop-box {
+  position: absolute;
+  left: 10px;
+  top: 40%;
+  height: 50%;
+  width: 90%;
+}

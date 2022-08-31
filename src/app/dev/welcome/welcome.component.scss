@@ -1,0 +1,16 @@
+.champion {
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  // border: 2px solid var(--border);
+  border-radius: 1px;
+  position: absolute;
+  left: calc(50% - 125px);
+  top: calc(30% - 50px);
+}
+
+p-tabMenu {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}

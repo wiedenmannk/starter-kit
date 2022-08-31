@@ -1,0 +1,12 @@
+<div class="dashboard-container">
+    <div class="flex-container shadow-box" #flexBox
+         draggable="true"
+         type="container"
+    >flex-container
+    </div>
+    <div class="drop-box shadow-box" #dropBox
+         (drop)="handleDrop($event)"
+         (dragover)="setDropBoxForHTML($event, dropBox)"
+         (dragleave)="checkForDrop($event)"
+    ></div>
+</div>

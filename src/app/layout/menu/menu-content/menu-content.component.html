@@ -1,0 +1,14 @@
+<h2 translate *ngIf="title">{{ title }}</h2>
+<ul>
+    <li
+        *ngFor="let item of menuItems;index as i"
+        (click)="selectItem(item.label+item.link+i)"
+        id="{{item.label}}{{item.link}}{{i}}"
+        routerLink="{{ item.link }}">
+
+        <i *ngIf="item.icon" class="{{ item.icon }}"></i>
+        <span class="spacer" *ngIf="!item.icon"></span>
+        <span translate>{{ item.label }}</span>
+    </li>
+</ul>
+

@@ -1,0 +1,10 @@
+<content-layout>
+    <ng-container header>
+        <p-tabMenu [model]="items" [activeItem]="items[0]"></p-tabMenu>
+        <p-tabMenu [model]="items" [activeItem]="items[1]"></p-tabMenu>
+    </ng-container>
+    <div class="champion" *ngIf="showMessage">
+        <h1>Choose your Champion</h1>
+    </div>
+    <router-outlet></router-outlet>
+</content-layout>

@@ -1,0 +1,11 @@
+{
+  "main": {
+    "home": "Home",
+    "app-name": "Starter Kit",
+    "dashboard": "Dashboard",
+    "videos": "Videos",
+    "admin": "Admin",
+    "developer": "Developer",
+    "forms": "Forms"
+  }
+}

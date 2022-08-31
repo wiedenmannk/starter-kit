@@ -1,0 +1,6 @@
+$header-height: 75px;
+$menu-with: 300px;
+$time-menu: .4s;
+$main-height: calc(100% - #{$header-height});
+$main-left: 10px;
+$main-width: calc(100% - #{$main-left});
