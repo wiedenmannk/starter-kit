@@ -23,7 +23,7 @@
     "primeicons": "^5.0.0",
     "primeng": "^14.0.2",
     "rxjs": "~7.5.0",
-    "starter-lib": "^0.0.0-watch",
+    "starter-lib": "^0.0.103",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

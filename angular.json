@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles/app/styles.scss",
+              "src/styles/styles.scss",
+              "node_modules/starter-lib/styles/app/styles.css",
               "node_modules/primeng/resources/themes/bootstrap4-light-blue/theme.css",
               "node_modules/primeng/resources/primeng.min.css",
               "node_modules/primeicons/primeicons.css"
