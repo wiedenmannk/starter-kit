@@ -1,0 +1,36 @@
+@layer reset;
+
+/*
+@layer reset {
+	lib-starter-lib {
+		content-layout {
+			.welcome {
+				background-color: transparent;
+				color: red;
+			}	
+		}
+	}
+}
+	*/
+
+.welcome {
+	color: green;
+	background-color: transparent;
+}
+
+/*
+@layer reset {
+    button,
+    input {
+    }
+}
+
+@layer primeng {
+    .p-button {
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+
+    }
+  }
+*/

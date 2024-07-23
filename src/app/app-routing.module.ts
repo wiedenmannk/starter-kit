@@ -1,20 +1,25 @@
-import { FormsModule } from './modules/forms/forms.module';
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { DefaultLayoutComponent } from './layout/default-layout/default-layout.component';
-import { DevModule } from '@modules/dev/dev.module';
+import { FormsModule } from "./modules/forms/forms.module";
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
+import { DefaultLayoutComponent } from "./layout/default-layout/default-layout.component";
+import { DevModule } from "@modules/dev/dev.module";
+import { StarterLibComponent } from "starter-lib";
 
 const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: DefaultLayoutComponent,
     children: [
       {
-        path: 'dev',
+        path: "",
+        component: StarterLibComponent,
+      },
+      {
+        path: "dev",
         loadChildren: () => DevModule,
       },
       {
-        path: 'forms',
+        path: "forms",
         loadChildren: () => FormsModule,
       },
     ],
